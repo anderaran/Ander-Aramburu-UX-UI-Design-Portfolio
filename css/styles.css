@@ -1,0 +1,273 @@
+
+
+/* CONFIG */
+
+header {
+  margin-top: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 80px;
+  align-items: center;
+  font-family: 'Plus Jakarta Sans-regular', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover{
+  color: #F35647;
+}
+
+#contact{
+    padding: 12px 34px;
+    border-radius: 8px;
+    background-color: #f1f0f0;
+    color: #060606;
+    font-size: 18px;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 84px;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Plus Jakarta Sans-extrabold', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+/* HEADER */
+
+header div {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  margin-top: 104px;
+  width: 100%;
+  justify-content: center;
+}
+
+#container {
+  width: 60%;
+}
+
+section{
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+h3{
+  font-family: 'Plus Jakarta Sans-Bold', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  color: #84868F;
+}
+
+h4{
+  font-family: 'Plus Jakarta Sans-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 35px;
+  color: #111;
+}
+
+
+#kontu {
+  color: #D2FF23;
+}
+
+#glucovibes {
+  color: white;
+}
+
+#songkick {
+  color: #F70046;
+}
+
+
+p{
+  font-family: 'Plus Jakarta Sans-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111;
+}
+
+.pblanco{
+  font-family: 'Plus Jakarta Sans-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+p2{
+  font-family: 'Plus Jakarta Sans-regular', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111;
+}
+
+.tituloProyecto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 32px;
+  border-radius: 16px;
+  background-color: #f1f0f0;
+}
+
+#kontubox{
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 16px 32px;
+  border-radius: 16px;
+  width: calc(100% - 64px);
+  background-color: #111;
+}
+
+#glucovibesbox{
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 16px 32px;
+  border-radius: 16px;
+  width: calc(100% - 64px);
+  background-color: #F35647;
+}
+
+#songkickbox{
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 16px 32px;
+  border-radius: 16px;
+  width: calc(100% - 64px);
+  background-color: #111;
+}
+
+.description{
+  display: flex;
+  padding: 16px 32px;
+  border-radius: 16px;
+  flex-grow: 1;
+  background-color: #f1f0f0;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#descriptionKontu{
+  display: flex;
+  padding: 16px 32px;
+  border-radius: 16px;
+  flex-grow: 1;
+  border: 2px solid #111;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+}
+
+#descriptionGlucovibes{
+  display: flex;
+  padding: 16px 32px;
+  border-radius: 16px;
+  flex-grow: 1;
+  border: 2px solid #f35647;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+}
+
+#legobox{
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 16px 32px;
+  border-radius: 16px;
+  width: calc(100% - 64px);
+  background-color: #F08233;
+}
+
+
+
+.tituloFoto{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 28%;
+}
+
+.fotoGrande{
+  flex-grow: 2;
+  border-radius: 16px;
+  height: 600px;
+  background-color: #f1f0f0;
+}
+
+.proyecto{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 80px;
+}
+
+footer{
+  display: flex;
+  width: 60%;
+}
+
+footer a{
+  font-family: 'Plus Jakarta Sans-Bold', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  color: #f35647;
+}
+
+footer a:hover{
+  color: #F35647;
+  text-decoration: underline;
+}
+
+
+
+
+
